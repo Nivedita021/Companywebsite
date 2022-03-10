@@ -1,0 +1,89 @@
+body{
+    font-family: Vesper Libre, serif ;
+    background:url(starsradsr.jpeg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{height:50px;margin-bottom: 5px;padding:2px;}
+
+.navbar-inverse{
+    background:rgba(0, 0, 0, 0.5);
+    
+}
+.nav li{
+    color:whitesmoke;
+    font-size: 20px;
+    margin-right: 40px;
+    padding:10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid #11D1AA;
+    padding-bottom: 9px;
+    cursor:pointer;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color:white;
+    text-align: center;
+    margin:0; 
+    padding:10px;
+    letter-spacing: 2.5px;
+}
+
+.icons p{
+    font-size: 18px;
+}
+.bodyimage{
+    height:150px;
+   
+}
+.col-md-4{
+    text-align: center;
+    color:white;
+    
+}
+.col-md-4 h2{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+}
+
+.container{
+    max-width: 1000px;
+}
+.contact{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.btn{
+    background-color:#11d1ab7c;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 70px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    border:none;
+
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:gray;
+    font-size: 20px;
+    padding: 10px 0;
+}
+@media (max-width:768px){
+    .logo{
+        height:35px;
+    }
+    .bodyimage{
+        height:100px;
+    }
+}
